@@ -1,6 +1,6 @@
 [submodule "osTicket"]
 	path = osTicket
-	url = git@github.com:rinkp/osTicket.git
+	url = https://github.com/ColtonSpitdowski/osTicket.git
 [submodule "osTicket-plugins"]
 	path = osTicket-plugins
-	url = git@github.com:osTicket/osTicket-plugins.git
+	url = https://github.com/ColtonSpitdowski/osTicket-plugins.git
