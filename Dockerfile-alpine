@@ -1,3 +1,6 @@
+LABEL org.opencontainers.image.source=https://github.com/ColtonSpitdowski/osticket-dockerized
+LABEL org.opencontainers.image.description="Container image for my modified version of osTicket"
+
 ARG PHP_VERSION=php84
 
 FROM php:8.4-alpine AS build-plugins
