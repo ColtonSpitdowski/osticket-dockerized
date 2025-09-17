@@ -18,6 +18,7 @@ RUN --mount=type=bind,src=./osTicket-plugins,dst=/osTicket-plugins,readonly=fals
     php -dphar.readonly=0 make.php build auth-oauth2 && \
     php -dphar.readonly=0 make.php build auth-passthru && \
     php -dphar.readonly=0 make.php build auth-password-policy  && \
+    php -dphar.readonly=0 make.php build limesurvey  && \
     php -dphar.readonly=0 make.php build storage-fs  && \
     php -dphar.readonly=0 make.php build storage-s3 && \
 	mkdir /output && \
